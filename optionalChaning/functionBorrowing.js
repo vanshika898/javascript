@@ -22,3 +22,8 @@ function sayHi(degree,grade) {
 
 sayHi.call(user1,"BTECH-COMPUTER",121);
 sayHi.call(user2,"Computer science and engineering",122);
+
+//Use aplly method
+
+sayHi.apply(user1,["Btech",2010]);
+sayHi.apply(user2,["computer",2014]);
