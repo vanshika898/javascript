@@ -27,3 +27,6 @@ sayHi.call(user2,"Computer science and engineering",122);
 
 sayHi.apply(user1,["Btech",2010]);
 sayHi.apply(user2,["computer",2014]);
+
+const result = sayHi.bind(user1,"Btech");
+result(2022);
