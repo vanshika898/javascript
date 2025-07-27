@@ -6,3 +6,4 @@ function greetMessage(){
 
 const output = greetMessage();
 output();
+
