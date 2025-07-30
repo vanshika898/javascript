@@ -11,3 +11,11 @@ function triple(n){
 return n*3;
 }
 
+
+
+const d = a.reduce(product);
+console.log(d);
+function product(a,b){
+    return a*b;
+}
+
